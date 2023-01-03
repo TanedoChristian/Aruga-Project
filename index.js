@@ -46,13 +46,9 @@ app.get('/test', async (req, response) => {
         const data = {
 
           "intent": "sale",
-        
           "payer": {
-        
             "payment_method": "paypal"
-        
           },
-        
           "transactions": [{
         
             "amount": {
@@ -68,7 +64,7 @@ app.get('/test', async (req, response) => {
             },
             "description": "This is the payment transaction description.",
             "custom": "EBAY_EMS_90048630024435",
-            "invoice_number": "4878758967234234",
+            "invoice_number": "487875896723410",
             "payment_options": {
               "allowed_payment_method": "INSTANT_FUNDING_SOURCE"
             },
@@ -95,15 +91,15 @@ app.get('/test', async (req, response) => {
               }],
               "shipping_address": {
         
-                "recipient_name": "Hello World",
+                "recipient_name": "Cj Tanedo",
         
-                "line1": "4thFloor",
+                "line1": "Rivaridge",
         
-                "line2": "unit#34",
+                "line2": "Tisa",
         
-                "city": "SAn Jose",
+                "city": "Cebu City",
         
-                "country_code": "US",
+                "country_code": "PH",
         
                 "postal_code": "95131",
         
